@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Product */
+
+#product h1 {
+    background-color:#212529;
+    color: whitesmoke;
+    box-shadow: 5px 10px 7px #000;
+}
+
+.row {
+    margin-top: 40px;
+}
+
+#product .card {
+    box-shadow: 5px 13px 15px #000;
+    margin-bottom: 10px;
+}
+
+img.card-img-top-fullsize {
+    position: absolute;
+	top: 15px;
+	left: 50px;
+	display: none;
+}
+
+img.card-img-top:hover ~ img.card-img-top-fullsize {
+    display: block;
+    z-index: 100;
+    border: gray solid 1px;
+    border-radius: 6px;
+    box-shadow: 5px 13px 15px #000;
+}
+
+#product p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#product .ref {
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    color: #0085CB;
+    text-align: center;
+}
+
+#product a {
+    margin-top: 10px;
+}
+
+#product h2 {
+    margin-bottom: 0px;
+}
+
+#product h6 {
+    font-size: small;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0px!important;
+    background-color: #212529;
+    color: whitesmoke;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+}
+
+#product span {
+    font-size: 8px;
+}
+
+#product .badges {
+    text-align: center;
+    margin-bottom: 20px!important;
+}
+
+#product .badge {
+    font-weight: 400;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#product a {
+    display: block;
+}
+
+/* /Product */
+
+/* Footer */
+
+#footer {
+    background: #212529;
+    bottom: 0;
+    margin-top: auto;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+
+#footer .footer__space {
+    border-left: gray 1px solid;
+}
+
+#footer a {
+    color: gray;
+    font-size: 10px;
+}
+
+#footer p {
+    color:gray;
+    font-size: 10px;
+} 
+
+#footer h6 {
+    color:white;
+} 
+
+#footer ul {
+align-items: center;
+padding-left: 0px;
+}
+
+#footer .footer-copyright {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+.social-links__icons {
+    display: inline-block;
+}
+
+.social-links__icons svg:hover {
+    color: #0085CB;
+}
+
+/* /Footer */

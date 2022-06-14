@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.text-semillitas {
+    color: pink !important;
+}
+
+.btn-semillitas {
+    background-color: #0085CB;
+    color: whitesmoke;
+}
+
+#header {
+    background-color:#212529;
+}
+
+#header img {
+    width: 70px;
+}
+
+#header .nav-link {
+    color: whitesmoke;
+    display: grid;
+    margin-left: 25px;
+}
+
+#header a:hover {
+    color:#0085CB;
+}
+
+#main .carousel-inner {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(40%);
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: gray;
+}
+
+#carousel .overlay p {
+    text-align: left;
+    color: #212529;
+    font-size: 14px;
+}
+
+#carousel .overlay h1 {
+    text-align: left;
+    color: #0085CB;
+    font-size: 28px;
+}
+
+#carousel .overlay div {
+    text-align: left !important;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#marcas #div-marca {
+    background-color:#212529;
+    color: whitesmoke;
+}
+
+#marcas .card {
+    box-shadow: 7px 13px 20px #000;
+}
+
+#marcas p {
+    font-size: 14px;
+}
+
+#marcas h2 {
+    margin-bottom: 0px;
+}
+
+.iso9001 .row {
+    background-color: #212529;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px; 
+}
+
+.iso9001 div {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.iso9001 .personal-iso {
+    width:70%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border-radius: 8px;
+}
+
+.iso9001 .logo-iso {
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 0px;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.iso9001 h3 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.iso9001 p {
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 14px;
+}
+
+#temas-para-hablar .distribuidor {
+    text-align: center;
+}
+
+#temas-para-hablar .img-distribuidor {
+    width: 25%;
+    text-align: center;
+}
+
+/* Footer */
+
+#footer {
+    background: #212529;
+}
+
+#footer .footer__space {
+    border-left: gray 1px solid;
+}
+
+#footer a {
+    color: gray;
+    font-size: 10px;
+}
+
+#footer p {
+    color:gray;
+    font-size: 10px;
+} 
+
+#footer h6 {
+    color:white;
+} 
+
+#footer ul {
+align-items: center;
+padding-left: 0px;
+}
+
+#footer .footer-copyright {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+.social-links__icons {
+    display: inline-block;
+}
+
+.social-links__icons svg:hover {
+    color: #0085CB;
+}
+
+/* /Footer */
