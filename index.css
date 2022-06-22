@@ -20,12 +20,17 @@ html, body {
     color: whitesmoke;
 }
 
+     /* HEADER */
+
 #header {
     background-color:#212529;
 }
 
 #header img {
     width: 70px;
+    animation-name: opening-logo;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in-out;
 }
 
 #header .nav-link {
@@ -37,6 +42,16 @@ html, body {
 #header a:hover {
     color:#0085CB;
 }
+
+#menu-mobile {
+    display: none;
+}
+
+#menu-mobile .navbar-toggler {
+    background-color: whitesmoke;
+}
+
+    /* MAIN */
 
 #main .carousel-inner {
     max-height: 70vh;
@@ -146,7 +161,7 @@ html, body {
     text-align: center;
 }
 
-/* Footer */
+        /* FOOTER */
 
 #footer {
     background: #212529;
@@ -190,3 +205,19 @@ padding-left: 0px;
 }
 
 /* /Footer */
+
+@keyframes opening-logo {
+    0%{
+        transform: scale(0);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 540px){
+    #menu-mobile {
+        display: block;
+    }
+}
