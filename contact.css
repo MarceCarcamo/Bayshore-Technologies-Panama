@@ -95,3 +95,13 @@ padding-left: 0px;
 }
 
 /* /Footer */
+
+@media (max-width: 540px){
+    .contact {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .row img {
+        width: 40%;
+    }
+}
