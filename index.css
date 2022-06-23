@@ -238,16 +238,20 @@ padding-left: 0px;
         text-align: end;
     }
 
+    #marcas img {
+        width: 100%;
+    }
+
+    #marcas .col-sm-12 {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
     #main button {
         display: none;
     }
     #main h1 {
         font-size: 22px!important;
-    }
-
-    .col-6 {
-        padding-left: 10px;
-        padding-right: 7px;
     }
 
     .div__img-personal {
