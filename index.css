@@ -33,6 +33,11 @@ html, body {
     animation-timing-function: ease-in-out;
 }
 
+#header .container {
+    display:flex;
+    flex-direction: initial;
+}
+
 #header .nav-link {
     color: whitesmoke;
     display: grid;
@@ -217,8 +222,20 @@ padding-left: 0px;
 }
 
 @media (max-width: 540px){
+   #header .container {
+    align-items:flex-start;
+   }
+   
     #menu-mobile {
         display: block;
+    }
+
+    #menu-mobile .navbar>.container {
+        align-items: none!important;
+    }
+
+    .navbar-nav {
+        text-align: end;
     }
 
     #main button {
@@ -226,6 +243,21 @@ padding-left: 0px;
     }
     #main h1 {
         font-size: 22px!important;
+    }
+
+    .col-6 {
+        padding-left: 10px;
+        padding-right: 7px;
+    }
+
+    .div__img-personal {
+        padding-bottom: 20px;
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+    }
+
+    .div__img-personal img {
+        width:100%!important;
     }
 
     .iso9001 p {
