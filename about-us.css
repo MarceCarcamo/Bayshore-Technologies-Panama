@@ -11,6 +11,42 @@ html, body {
     min-height: 100vh;
 }
 
+ /* HEADER */
+
+ #header {
+    background-color:#212529;
+}
+
+#header img {
+    width: 70px;
+    animation-name: opening-logo;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in-out;
+}
+
+#header .container {
+    display:flex;
+    flex-direction: initial;
+}
+
+#header .nav-link {
+    color: whitesmoke;
+    display: grid;
+    margin-left: 25px;
+}
+
+#header a:hover {
+    color:#0085CB;
+}
+
+#menu-mobile {
+    display: none;
+}
+
+#menu-mobile .navbar-toggler {
+    background-color: whitesmoke;
+}
+
 /* About Us */
 
 .about-us {
@@ -128,6 +164,31 @@ padding-left: 0px;
 /* /Footer */
 
 @media (max-width: 540px){
+   
+        #header .container {
+            align-items:flex-start;
+           }
+           
+            #menu-mobile {
+                display: block;
+            }
+        
+            #menu-mobile .navbar>.container {
+                align-items: none!important;
+            }
+        
+            #menu-mobile .nav-item {
+                text-align: left;
+            }
+        
+            #menu-mobile .nav-item a {
+                margin: 5px;
+            }
+        
+            .navbar-nav {
+                text-align: end;
+            }
+   
     .accordion {
         margin-left: 0px;
         margin-right: 0px;
